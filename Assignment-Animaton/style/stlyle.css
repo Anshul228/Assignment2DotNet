@@ -13,11 +13,12 @@ section, h1 {
    /* The skew() method */
    #skew .square {
      background-color: purple;
-     transform: skew(50deg,30deg);
+     
    }
    
    
    #skew .square:hover {  
+    transform: skew(50deg,30deg);
    
    }
      
@@ -30,20 +31,21 @@ section, h1 {
       top: 25%;
       width: 75px;
       height: 75px;
-      transform: scaleY(2);
-   }
+         }
    
    #scale .square div:hover {
+    transform: scaleY(2);
    
    }
    
    /* The rotate() method */
    #rotate .square {
      background-color: tomato;
-     transform: rotate(20deg);
+     
    }
    
    #rotate .square:hover {   
+    transform: rotate(45deg);
    
    }
    
@@ -51,12 +53,13 @@ section, h1 {
    /* The translate() method */
    #translate .square {
      background-color: orange;
-     transform: translate(900px,0);
+     
      
    
    }
    
    #translate .square:hover { 
+    transform: translate(900px,0);
    
    }
    
